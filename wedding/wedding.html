@@ -158,8 +158,8 @@ h2 + .mr{font-size:18px;opacity:.85}
 }
 .mandir .frame .photo{clip-path:inherit;width:100%;height:100%}
 .photo.art-fill{background:radial-gradient(ellipse at 50% 30%,#fff7ef,#f6dde2 60%,#efcbd3)}
-.photo.art-fill:empty::after,.photo.art-fill:not(:has(img))::after{content:"";position:absolute;inset:16px;border:1px solid rgba(201,164,99,.35);clip-path:inherit}
-.photo.art-fill img{object-fit:contain;object-position:50% 100%;transform:scale(1.42);transform-origin:50% 100%;-webkit-mask-image:linear-gradient(#000 80%,transparent);mask-image:linear-gradient(#000 80%,transparent)}
+.photo.art-fill:not(:has(img))::after{content:"";position:absolute;inset:16px;border:1px solid rgba(201,164,99,.35);clip-path:inherit}
+.photo.art-fill img{width:100%;height:100%;object-fit:cover;object-position:50% 0%}
 .mandir .bells{position:absolute;top:44%;width:100%;display:flex;justify-content:space-between;padding:0 0}
 .mandir .bells svg{width:22px;height:46px}
 .mandir .kalash{position:absolute;top:-30px;left:50%;transform:translateX(-50%);width:40px}
